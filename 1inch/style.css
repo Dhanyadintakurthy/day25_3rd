@@ -1,0 +1,30 @@
+body{
+    background-color: burlywood;
+}
+.heading{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    margin: 5mm;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.apione,.cats,.liqui,.apionecontainer{
+    margin: 5mm;
+    padding: 5mm;
+    border-radius: 2rem;
+    background-color: brown;
+    color: wheat;
+    font-family: cursive;
+    font-size: large;
+}
+.apione:hover,.cats:hover,.liqui:hover{
+    opacity: 0.8;
+    transition-duration: 0.7s;
+    transform:scaleX(0.98);
+}
+.apionecontainer{
+    display: none;
+}
